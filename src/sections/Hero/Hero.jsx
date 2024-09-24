@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import resume1 from '../../assets/resume-Eng.pdf';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import resume from '../../assets/resume.pdf';
@@ -56,7 +56,10 @@ function Hero() {
         focusing on HTML, CSS, JavaScript, and React.js.
         </p>
         <a href={resume} download>
-          <button className="hover">Resume</button>
+          <button className="hover">Resume CH</button>
+        </a>
+        <a href={resume1} download>
+          <button className="hover">Resume ENG</button>
         </a>
       </div>
     </section>
