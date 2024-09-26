@@ -56,7 +56,7 @@ function Hero() {
         focusing on HTML, CSS, JavaScript, and React.js.
         </p>
         <a href={resume} download>
-          <button className="hover">Resume CH</button>
+          <button className="hover">Resume CN </button>
         </a>
         <a href={resume1} download>
           <button className="hover">Resume ENG</button>
